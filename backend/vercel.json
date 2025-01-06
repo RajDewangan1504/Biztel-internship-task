@@ -9,10 +9,11 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "server.js"
+        "dest": "/server.js"
       }
     ],
-   
-    "ignoreCommand": "node_modules"
+    "env": {
+      "MY_ENV_VARIABLE": "your-value-here"
+    }
   }
   
